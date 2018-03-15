@@ -1,0 +1,27 @@
+{
+  "name": "PET",
+  "version": "6.6.6",
+  "private": true,
+  "description": "My Pet Project",
+  "devDependencies": {
+    "eslint": "4.16.0",
+    "eslint-config-htmlacademy": "0.4.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fuckomako/pet"
+  },
+  "author": "fuckomako",
+  "bugs": {
+    "url": "https://github.com/fuckomako/pet/issues"
+  },
+  "homepage": "https://github.com/fuckomako/pet#readme",
+  "license": "MIT",
+  "dependencies": {},
+  "scripts": {
+    "test": "eslint js/"
+  },
+  "engines": {
+    "node": "8.9"
+  }
+}

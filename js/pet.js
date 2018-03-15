@@ -12,11 +12,12 @@ var calculateMoney = function () {
     event.preventDefault();
     popup.classList.add('money-block--show');
     if (field.value === '') {
-      alert('Пустая строка!');
+      hint.textContent = 'Братан циферки забыл ввести...';
+    } else {
+      sum += +field.value;
+      result.textContent = sum + ' руб';
+      field.value = ' ';
     }
-    sum += +field.value;
-    result.textContent = sum + ' руб';
-    field.value = ' ';
   });
 };
 calculateMoney();
